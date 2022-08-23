@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<title>Color App</title>
+</head>
+<body>
+	<div id="container">
+		<div id="name">
+			<span id="brand-name">
+				Chroma
+			</span>
+		</div>
+		<div id="rgb-color">
+			<div id="red-box">
+			</div>
+			<div id="green-box">
+			</div>
+			<div id="blue-box">
+			</div>
+		</div>
+		<div id="color">
+		</div>
+		<div id="rgb-inputs">
+			<span id="caption">
+				Input RGB or HEX color codes
+			</span>
+			<div id="color-inputs">
+				<input min="0" max="255" step="1" id="red-input" name="red-input" placeholder="00">
+				<input min="0" max="255" step="1" id="green-input" name="green-input" placeholder="00">
+				<input min="0" max="255" step="1" id="blue-input" name="blue-input" placeholder="00">
+			</div>
+			<div id="color-create-button">
+				<button id="createColorBTN" name="createColorBTN" onclick="createColor()">Create Color</button>
+			</div>
+		</div>
+		<span id="credit">
+			By: <a href="https://www.facebook.com/johannes.anih">Johannes Anih</a>
+		</span>
+	</div>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
